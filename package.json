@@ -1,0 +1,26 @@
+{
+	"name": "stc-app",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"@nextui-org/react": "^1.0.8-beta.5",
+		"@stripe/stripe-js": "^1.29.0",
+		"next": "12.1.4",
+		"next-pwa": "^5.5.0",
+		"next-ui": "^0.9.0",
+		"react": "18.0.0",
+		"react-dom": "18.0.0",
+		"stripe": "^8.219.0"
+	},
+	"devDependencies": {
+		"eslint": "8.13.0",
+		"eslint-config-next": "12.1.4",
+		"prettier": "^2.6.2"
+	}
+}
